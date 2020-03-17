@@ -4,7 +4,7 @@ import json
 
 def sorter():
     global L
-    L = sorted(L, key=lambda i: (i['artist'].strip("The "), i['title'], i['format']))
+    L = sorted(L, key=lambda i: (i['artist'].strip("The ").strip("Los "), i['title'], i['format']))
 
 
 def load(x):
