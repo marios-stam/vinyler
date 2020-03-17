@@ -1,0 +1,8 @@
+
+vinyler.spec
+*.json
+dist/
+.idea/
+__pycache__/
+build/
+dist/
