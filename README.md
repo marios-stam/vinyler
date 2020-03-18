@@ -6,11 +6,11 @@ A simple UI for ~~musical album~~ collectible items data input. The user is prom
   ### Title
   The album*/book* title.
   > Automatic first letter of word capitalization (if it doesn't contain symbols)
-  ### Artist*/Authour*
+  ### Artist */Authour*
   The artist(s) that published the album.
   > Automatic first letter of word capitalization (if it doesn't contain symbols)
   ### Year
-  The year when the album*/book* was published.
+  The year when the album */book* was published.
   ### Genre
   The albums general genre.
   > Automatic first letter of word capitalization (if it doesn't contain symbols)
@@ -19,7 +19,7 @@ A simple UI for ~~musical album~~ collectible items data input. The user is prom
   > Automatic changes for albums: v, lp, vinyl -> Vinyl | t, tape, cassette -> Tape | c, cd -> CD
   > *Automatic changes for books: p, paper -> Paperback | h, hard -> Hardcover*
   ### Owner
-  Who currently has the album*/book* in posession.
+  Who currently has the album */book* in posession.
   ### ID (Automatically generated)
   A (most propably) unique GUID number is generated for every entry with an API request to uuidgenerator.net. This ensures that even if you have a duplicate copy of the same album the two entries are NOT identicall. Every entry carries its own unique id number.
 
