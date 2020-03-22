@@ -190,18 +190,9 @@ while True:
 
             cmd = input("Owner: ")
             cmd = cmd.lower()
-            if cmd == "":
-                cmd = ' '
-            elif cmd in ["f"]:
-                cmd = "Frank"
-            elif cmd in ['z']:
-                cmd = "Zoe"
-            elif cmd in ['e']:
-                cmd = "Eric"
-            elif cmd in ['g']:
-                cmd = "George"
-            elif cmd in ['p']:
-                cmd = "Parents"
+            
+            users_dict={'':' ','f':'Frank','z':'Zoe','e':'Eric','g':'George','p':'Parents'}
+            cmd=users_dict[cmd]
             cmd.capitalize()
             A['owner'] = cmd
 
